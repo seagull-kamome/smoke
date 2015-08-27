@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2857B73E-F847-4B02-9238-064979017E93}") = "smoke", "smoke\smoke.cproj", "{318D93D9-99E4-4BB9-88D6-9E7B623D5EED}"
+EndProject
+Project("{2857B73E-F847-4B02-9238-064979017E93}") = "tests", "tests\tests.cproj", "{2F4BE466-EA84-44E1-899B-CDF21E8AF39C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F4BE466-EA84-44E1-899B-CDF21E8AF39C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4BE466-EA84-44E1-899B-CDF21E8AF39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4BE466-EA84-44E1-899B-CDF21E8AF39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4BE466-EA84-44E1-899B-CDF21E8AF39C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318D93D9-99E4-4BB9-88D6-9E7B623D5EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318D93D9-99E4-4BB9-88D6-9E7B623D5EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318D93D9-99E4-4BB9-88D6-9E7B623D5EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318D93D9-99E4-4BB9-88D6-9E7B623D5EED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = tests\tests.cproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-chdr
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 120
+		$2.IndentWidth = 8
+		$2.inheritsSet = VisualStudio
+		$2.inheritsScope = text/plain
+		$2.scope = text/plain
+		$0.TextStylePolicy = $3
+		$3.inheritsSet = null
+		$3.scope = text/x-c++src
+		$0.StandardHeader = $4
+		$4.Text = @\r\n Author:\n   ${AuthorName} ${AuthorEmail}\n\n Copyright (c) ${Year}, ${CopyrightHolder}\n\n All rights reserved.\n\n Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n    * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n    * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in\n      the documentation and/or other materials provided with the distribution.\n    * Neither the name of the [ORGANIZATION] nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\n THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT\n LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR\n A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR\n CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,\n EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR\n PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\n NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n
+		$4.IncludeInNewFiles = True
+	EndGlobalSection
+EndGlobal
